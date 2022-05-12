@@ -1,0 +1,2 @@
+*{box-sizing:border-box;color:#1f1f1f;font-family:Montserrat,sans-serif}#root,.App,body,html{height:100vh}body{margin:0}.App{padding:2rem 0}table,td,th,tr{background-color:#fff4e6;border:1px solid #1f1f1f;width:100%}td,th,tr{padding:.3rem}.center{grid-row-gap:.3rem;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:.5 fr;place-content:center;row-gap:.3rem}.component{background:#ffe2ab;padding:.5rem}h2,p{text-align:center}
+/*# sourceMappingURL=main.50d8090d.css.map*/

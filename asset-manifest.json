@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/task-openx/static/css/main.50d8090d.css",
+    "main.js": "/task-openx/static/js/main.e0d622cf.js",
+    "index.html": "/task-openx/index.html",
+    "main.50d8090d.css.map": "/task-openx/static/css/main.50d8090d.css.map",
+    "main.e0d622cf.js.map": "/task-openx/static/js/main.e0d622cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50d8090d.css",
+    "static/js/main.e0d622cf.js"
+  ]
+}
