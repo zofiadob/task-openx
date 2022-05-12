@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(31, 31, 31);
+}
+
+html, body, #root, .App{
+    height: 100vh;
+}
+
+body{
+    margin: 0;
+}
+
+.App{
+    padding: 2rem 0;
+}
+
+table,tr,td,th{
+    border: 1px solid rgb(31, 31, 31);
+    width: 100%;
+    background-color: rgb(255, 244, 230);
+}
+
+tr,td,th{
+    padding: .3rem;
+}
+
+.center{
+    display: grid;
+    grid-template-rows: 0.5 fr;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: .3rem;   
+    place-content: center; 
+}
+
+.component{
+    background: rgb(255, 226, 171);
+    padding: .5rem;
+}
+
+h2,p{
+    text-align: center;
+}
+
+
+
