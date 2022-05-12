@@ -1,5 +1,11 @@
 import React from "react";
 
+export const calculate = (xlat, xlong, ylat, ylong) => {
+  const x = Math.pow(parseFloat(xlat) - parseFloat(ylat), 2);
+  const y = Math.pow(parseFloat(xlong) - parseFloat(ylong), 2);
+  return Math.sqrt(x + y);
+}
+
 export default function LivingFurthest(props) {
   const geoList = props.users.map((user) => {
     return {
@@ -8,12 +14,6 @@ export default function LivingFurthest(props) {
       long: user.address.geolocation.long,
     };
   });
-
-  function calculate(xlat, xlong, ylat, ylong) {
-    const x = Math.pow(parseFloat(xlat) - parseFloat(ylat), 2);
-    const y = Math.pow(parseFloat(xlong) - parseFloat(ylong), 2);
-    return Math.sqrt(x + y);
-  }
 
   let longest = { nameFirst: "", nameSecond: "", value: 0 };
   for (let i = 0; i < geoList.length; i++) {

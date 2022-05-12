@@ -38,7 +38,6 @@ export default function Task() {
         })
   },[])
 
-
   return (
   <div className="center">
   {!isLoaded && <h2>Loading data...</h2>}
